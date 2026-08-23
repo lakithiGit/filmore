@@ -18,7 +18,7 @@ searchBtn.addEventListener("click", async () => {
         filmCard.classList.add("film-card");
 
         filmCard.innerHTML = `
-        <img src="/${film.poster_url.replace(/^public\//, '')}" width="200" height="300">
+        <img src="${film.poster_url}" width="200" height="300">
         <h2>${film.title}</h2>
         <p>Dir. ${film.director}</p>
         <p>(${film.year})</p>
