@@ -6,7 +6,7 @@ searchBtn.addEventListener("click", async () => {
 
     const searchGenre = searchBox.value;
 
-    const response = await fetch(`http://localhost:3000/api/genre?searchGenre=${encodeURIComponent(searchGenre)}`);
+    const response = await fetch(`/api/genre?searchGenre=${encodeURIComponent(searchGenre)}`);
 
     const films = await response.json();
 
