@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 370px;
+    align-items: center;
+    margin-bottom: 30px;
+
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.15);
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    font-size: 23px;
+    color: rgba(10, 10, 10, 0.5);
+    font-weight: 540;
+    letter-spacing: 2px;
+    line-height: normal;
+    padding: none;
+    margin: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgba(10, 10, 10, 0.9);
+    letter-spacing: 1.5px;
+    padding: none;
+    margin: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#search-box {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(10, 10, 10, 0.5);
+}
+
+.search-icon {
+    background-color: rgba(10, 10, 10, 0.1);
+}
+
+.film-card {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+
+    border: 1px solid rgba(200, 200, 200, 0.15);
+    padding: 20px 0px;
+    width: 300px;
+    margin: 5px;
+    transition: 1s ease-in;
+}
+
+#results-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
